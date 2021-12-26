@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div.card-body {
+    vertical-align: bottom;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.card-title {
+    text-transform: lowercase;
+}
+
+.nav-item {
+    opacity: 0.8;
+    display: inline-block !important;
+    position: relative !important;
+}
+
+.nav-item:hover {
+    opacity: 1;
+}
+
+.nav-item::before {
+    transition: 0ms;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: #031D44;
+
+    width: 0%;
+    bottom: 0px;
+}
+
+.nav-item:hover::before {
+    width: 100%;
+}
