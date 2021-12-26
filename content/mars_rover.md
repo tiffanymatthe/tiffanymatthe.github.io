@@ -4,8 +4,16 @@ type: project
 image: sunset.png
 tags:
   - C++
+  - another tag
+  - tagiging
+  - simulation in CERN
+  - tag
+  - tags
+  - wowowow
 color: FCEFF0
 titleColor: F8DADC
+description: A web application that generates Spotify playlists using OpenCV and the Spotify API with Python.
+year: 2021
 ---
 
 # h1 Heading
