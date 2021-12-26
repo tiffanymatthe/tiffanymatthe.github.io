@@ -1,6 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '~assets';
+
+@font-face {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    src: url("..\fonts\Graphik\GraphikRegular.otf") format('opentype');
+}
 
 div.card-body {
     vertical-align: bottom;

@@ -1,7 +1,7 @@
 ---
 title: Picture-Spotify
 type: project
-image: cupcake_lines.png
+image: cupcake.png
 tags:
   - PHP
   - MySQL
