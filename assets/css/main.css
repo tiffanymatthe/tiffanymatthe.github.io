@@ -11,6 +11,8 @@
 
 body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
+    background-color: #e9e3e4;
+    color: rgb(64, 64, 64);
 }
 
 div.card-body {
