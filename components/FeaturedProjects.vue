@@ -1,9 +1,9 @@
 <template>
     <div>
-        <div class="text-xl">
+        <div class="text-3xl py-5">
             Projects
         </div>
-        <div class="grid mb-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div class="grid mb-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-5">
             <div class="max-w-sm overflow-hidden m-2 border border-black rounded-xl"
             v-for="post in posts"
             :key="post.title"

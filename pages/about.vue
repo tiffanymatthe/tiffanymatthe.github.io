@@ -3,6 +3,7 @@
     <NavigationBar />
     <div v-for="page in pages" :key="page.title">
       <h1 class="text-5xl pb-3 mt-2 z-10">{{ page.title }}</h1>
+      <nuxt-content class="mt-4 prose max-w-none" :document="page" />
     </div>
     <PageFooter />
   </div>

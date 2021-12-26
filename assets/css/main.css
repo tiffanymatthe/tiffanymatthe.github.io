@@ -9,6 +9,10 @@
     src: url("..\fonts\Graphik\GraphikRegular.otf") format('opentype');
 }
 
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
 div.card-body {
     vertical-align: bottom;
     display: flex;
