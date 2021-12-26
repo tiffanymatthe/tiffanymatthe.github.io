@@ -1,23 +1,27 @@
 <template>
     <div>
-        <div>
-            Featured Projects.
+        <div class="text-xl">
+            Projects
         </div>
         <div class="grid mb-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            <div class="max-w-sm overflow-hidden flex justify-between flex-col m-2"
-            :style="`background-color:#${post.color}`"
+            <div class="max-w-sm overflow-hidden m-2 border-2 border-black rounded-md"
             v-for="post in posts"
-            :key="post.title">
-                <div><img class="w-full" :src="post.image" :alt="post.title"></div>
-                <div class="px-6 py-4 card-body">
-                    <div class="font-bold text-xl mb-2 card-title" :style="`color:#${post.titleColor}`">{{post.title}}</div>
-                    <div>
-                        <span v-for="(tag,index) in post.tags" :key="tag">
-                            {{tag}}
-                            <span v-if="index != post.tags.length - 1"> | </span>
-                        </span>
+            :key="post.title"
+            >
+                <NuxtLink :to="`${post.slug}`">
+                <div class="flex justify-between flex-col h-full">
+                    <div><img class="w-full" :src="post.image" :alt="post.title"></div>
+                    <div class="px-6 py-4 card-body">
+                        <div class="font-bold text-xl mb-2 card-title" :style="`color:#${post.titleColor}`">{{post.title}}</div>
+                        <div>
+                            <span v-for="(tag,index) in post.tags" :key="tag">
+                                {{tag}}
+                                <span v-if="index != post.tags.length - 1"> | </span>
+                            </span>
+                        </div>
                     </div>
                 </div>
+                </NuxtLink>
             </div>
         </div>
     </div>

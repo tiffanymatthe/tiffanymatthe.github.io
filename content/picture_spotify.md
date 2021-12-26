@@ -1,5 +1,6 @@
 ---
 title: Picture-Spotify
+type: project
 image: cupcake_lines.png
 tags:
   - PHP

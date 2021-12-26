@@ -1,5 +1,6 @@
 ---
 title: Round Recipes
+type: project
 image: cupcake_lines.png
 tags:
   - PHP

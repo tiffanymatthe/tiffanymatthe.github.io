@@ -1,23 +1,22 @@
 <template>
   <div class="w-4/5 mx-auto md:w-3/5 flex flex-col h-screen">
     <NavigationBar />
-    <MainHero />
-    <FeaturedProjects :posts="posts.filter(i => i.type === 'project')" />
-    <WorkExperience />
+    <div>
+    </div>
     <PageFooter />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage',
+  name: 'AboutPage',
   async asyncData ({ $content }) {
-    const posts = await $content()
-      .only(['title', 'image', 'tags', 'slug', 'color', 'titleColor', 'type'])
+    const pages = await $content()
+      .only(['title', 'body', 'type'])
       .sortBy('createdAt', 'desc')
       .fetch()
     return {
-      posts
+      pages
     }
   }
 }
