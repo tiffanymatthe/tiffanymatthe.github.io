@@ -11,7 +11,7 @@
             >
                 <NuxtLink class="no-highlight" :to="`${post.slug}`">
                 <div class="flex justify-between flex-col h-full">
-                    <div><img class="w-full" :src="post.image" :alt="post.title"></div>
+                    <div><img class="w-full line-drawing" :src="post.image" :alt="post.title"></div>
                     <div class="px-6 py-4 card-body">
                         <div class="font-bold text-xl mb-2 card-title" :style="`color:#${post.titleColor}`">{{post.title}}</div>
                         <div>

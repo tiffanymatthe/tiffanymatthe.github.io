@@ -118,3 +118,8 @@ body::-webkit-scrollbar-thumb {
     background-clip: content-box;
     background-color: rgba(64, 64, 64, 0.8);
 }
+
+.line-drawing {
+    /* https://codepen.io/sosuke/pen/Pjoqqp */
+    filter: invert(22%) sepia(34%) saturate(0%) hue-rotate(32deg) brightness(94%) contrast(89%);
+}
