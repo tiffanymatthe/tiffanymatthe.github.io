@@ -8,10 +8,27 @@
     font-weight: 400;
     src: url("..\fonts\Graphik\GraphikRegular.otf") format('opentype');
 }
+@font-face {
+    font-family: 'Graphik';
+    font-style: italic;
+    font-weight: 400;
+    src: url("..\fonts\Graphik\GraphikRegularItalic.otf") format('opentype');
+}
+@font-face {
+    font-family: 'Graphik';
+    font-weight: bold;
+    src: url("..\fonts\Graphik\GraphikMedium.otf") format('opentype');
+}
+@font-face {
+    font-family: 'Graphik';
+    font-style: italic;
+    font-weight: bold;
+    src: url("..\fonts\Graphik\GraphikMediumItalic.otf") format('opentype');
+}
 
 body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
-    background-color: #e9e3e4;
+    background-color: #f1eff0;
     color: rgb(64, 64, 64);
 }
 
@@ -56,4 +73,42 @@ div.card-body {
     right: -100vw;
     min-width: 300vw;
     min-height: 300vh;
+}
+
+/* .hyperlink {
+    @apply underline;
+}
+
+.hyperlink:hover {
+    @apply underline;
+}
+
+.hyperlink:visited {
+    @apply text-purple-600;
+} */
+
+a:not(.no-highlight) {
+    background:
+       linear-gradient(
+         to bottom, rgb(64, 64, 64) 0%,
+         rgb(64, 64, 64) 100%
+       );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 1px 1px;
+    text-decoration: none;
+    transition: background-size .2s;
+}
+  
+a:not(.no-highlight):hover {
+    background-size: 4px 50px;
+    color: #f1eff0;
+}
+
+.nuxt-content-highlight {
+    background-color: whitw;
+}
+
+pre {
+    background: white !important;
 }

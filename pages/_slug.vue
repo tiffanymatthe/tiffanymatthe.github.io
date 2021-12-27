@@ -4,9 +4,9 @@
     <article>
         <div class="w-full">
           <div class="w-full relative">
-            <NuxtLink to="/" href="/" class="block mt-8" :style="`color:#${post.color}`">← Go Back</NuxtLink>
-            <h1 class="text-5xl pb-3 mt-2 z-10">{{ post.title }}</h1>
-            <div class="project-colour-block bottom-0 m-0 p-0 absolute block -z-50 overflow-hidden" :style="`background-color:#${post.titleColor}`"></div>
+            <NuxtLink to="/" href="/" class="block mt-8 no-highlight" :style="`color:#${post.titleColor}`">← Go Back</NuxtLink>
+            <h1 class="text-5xl pb-3 mt-2 z-10 font-bold">{{ post.title }}</h1>
+            <div class="project-colour-block bottom-0 m-0 p-0 absolute block -z-50 overflow-hidden" :style="`background-color:#${post.color}`"></div>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 pt-3">
             <span class="col-span-2 pr-5 text-xl pb-5">{{ post.description }}</span>
