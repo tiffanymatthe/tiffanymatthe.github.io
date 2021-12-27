@@ -3,6 +3,8 @@ title: About
 ---
 I am a UBC student working towards my bachelor's degree in Engineering Physics. My interests lie in technology, and how it can play a role in advancing sustainability. I also love creating — websites, pants, blog posts, knit toques, and a solar car are just some examples.
 
+I was recently a teaching assistant at UBC for a computer engineering course on software construction in Java (CPEN221).
+
 My latest co-op was at Kardium as an automation engineering co-op student. I helped develop software and build jigs that automate the fabrication of medical devices for atrial fibrillation. ❤️
 
 During the summer of 2020, I was a research co-op student with The Quantum Matter Institute at UBC. This included writing MATLAB code to analyse data, and designing new components for machines with SolidWorks. ⚛️
