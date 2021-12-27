@@ -1,10 +1,10 @@
 <template>
-<div>
+<div class="pb-5">
     <div class="text-3xl py-5">
         Work
     </div>
     <div v-for="experience in experiences" :key="experience.name">
-        <div class="md:flex md:justify-between">
+        <div class="md:flex md:justify-between text-md">
           <div>
             <a target="_blank" :href="experience.link" class="font-bold">{{experience.name}}</a>
             <div class="md:inline md:pl-2">{{experience.description}}</div>

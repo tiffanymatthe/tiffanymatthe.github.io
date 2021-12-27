@@ -1,5 +1,5 @@
 <template>
-  <div class="w-4/5 mx-auto md:w-3/5 flex flex-col h-screen">
+  <div class="w-4/5 mx-auto md:w-3/5 flex flex-col h-screen" id="top">
     <NavigationBar />
     <div>
       <h1 class="text-5xl pb-3 mt-2 z-10">{{ page.title }}</h1>

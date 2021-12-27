@@ -27,9 +27,11 @@
 }
 
 body {
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+    /* overflow-x: hidden; Hide horizontal scrollbar */
     background-color: #f1eff0;
     color: rgb(64, 64, 64);
+    scroll-behavior: smooth;
+    max-width: 100%;
 }
 
 div.card-body {
@@ -70,22 +72,9 @@ div.card-body {
 }
 
 .project-colour-block {
-    right: -100vw;
-    min-width: 300vw;
-    min-height: 300vh;
+    width: 100vw;
+    min-height: 100vh;
 }
-
-/* .hyperlink {
-    @apply underline;
-}
-
-.hyperlink:hover {
-    @apply underline;
-}
-
-.hyperlink:visited {
-    @apply text-purple-600;
-} */
 
 a:not(.no-highlight) {
     background:
@@ -106,7 +95,7 @@ a:not(.no-highlight):hover {
 }
 
 .nuxt-content-highlight {
-    background-color: whitw;
+    background-color: white;
 }
 
 pre {

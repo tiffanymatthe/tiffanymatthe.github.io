@@ -1,9 +1,9 @@
 <template>
-  <div class="w-4/5 mx-auto md:w-3/5 flex flex-col h-screen">
+  <div class="w-4/5 mx-auto md:w-3/5 flex flex-col h-screen" id="top">
     <NavigationBar />
     <MainHero />
-    <FeaturedProjects :posts="posts" />
     <WorkExperience />
+    <FeaturedProjects :posts="posts" />
     <PageFooter />
   </div>
 </template>
