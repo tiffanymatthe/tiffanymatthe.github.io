@@ -61,19 +61,19 @@ export default {
         autoprefixer: {},
       },
     },
-  },
+  }
 
-  router: {
-    extendRoutes: (routesIn) => {
-      routesIn.forEach((r) => {
-        if (r.path.includes('/projects/')) {
-          r.path = r.path.replace('/projects', '');
-        }
-        if (r.path.includes('/posts/')) {
-          r.path = r.path.replace('/posts', '');
-        }
-      });
-      return routesIn;
-    },
-  },
+  // router: {
+  //   extendRoutes: (routesIn) => {
+  //     routesIn.forEach((r) => {
+  //       if (r.path.includes('/projects/')) {
+  //         r.path = r.path.replace('/projects', '');
+  //       }
+  //       if (r.path.includes('/posts/')) {
+  //         r.path = r.path.replace('/posts', '');
+  //       }
+  //     });
+  //     return routesIn;
+  //   },
+  // },
 }
