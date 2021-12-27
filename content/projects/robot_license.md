@@ -1,6 +1,5 @@
 ---
 title: Autonomous Robot Controller
-type: project
 image: cupcake_lines.png
 tags:
   - Python

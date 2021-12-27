@@ -28,7 +28,7 @@
 <script>
 export default {
   async asyncData ({ $content, params }) {
-    const post = await $content(params.slug).fetch()
+    const post = await $content('projects', params.slug).fetch()
     return { post }
   }
 }

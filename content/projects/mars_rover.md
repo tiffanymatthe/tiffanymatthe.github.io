@@ -1,6 +1,5 @@
 ---
 title: Mars Rover
-type: project
 image: sunset.png
 tags:
   - C++

@@ -13,6 +13,7 @@
                 <div class="flex justify-between flex-col h-full">
                     <div><img class="w-full" :src="post.image" :alt="post.title"></div>
                     <div class="px-6 py-4 card-body">
+                        {{post.slug}}
                         <div class="font-bold text-xl mb-2 card-title" :style="`color:#${post.titleColor}`">{{post.title}}</div>
                         <div>
                             <span v-for="(tag,index) in post.tags" :key="tag">
