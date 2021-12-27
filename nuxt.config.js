@@ -23,6 +23,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '~plugins/filters.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -62,18 +63,4 @@ export default {
       },
     },
   }
-
-  // router: {
-  //   extendRoutes: (routesIn) => {
-  //     routesIn.forEach((r) => {
-  //       if (r.path.includes('/projects/')) {
-  //         r.path = r.path.replace('/projects', '');
-  //       }
-  //       if (r.path.includes('/posts/')) {
-  //         r.path = r.path.replace('/posts', '');
-  //       }
-  //     });
-  //     return routesIn;
-  //   },
-  // },
 }

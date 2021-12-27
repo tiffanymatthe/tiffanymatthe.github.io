@@ -13,6 +13,7 @@
               {{tag}}
               <span v-if="index != post.tags.length - 1"> | </span>
             </span>
+            <div>{{post.date | formatDate}}</div>
           </div>
           <div v-if="post.description !== undefined" class="grid grid-cols-1 md:grid-cols-2 pt-3">
             <span v-if="post.description !== undefined" class="col-span-2 pr-5 text-xl pb-5">{{ post.description }}</span>
