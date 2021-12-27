@@ -13,7 +13,7 @@
               {{tag}}
               <span v-if="index != post.tags.length - 1"> | </span>
             </span>
-            <div>{{post.date | formatDate}}</div>
+            <div v-if="post.data !== undefined">{{post.date | formatDate}}</div>
           </div>
           <div v-if="post.description !== undefined" class="grid grid-cols-1 md:grid-cols-2 pt-3">
             <span v-if="post.description !== undefined" class="col-span-2 pr-5 text-xl pb-5">{{ post.description }}</span>
@@ -38,11 +38,14 @@ export default {
     let post
     try {
       post = await $content('projects', params.slug).fetch()
+      console.log('Project fetched.')
     } catch (err) {
-      console.log('error')
       post = await $content('posts', params.slug).fetch()
+      console.log('Post fetched.')
     }
-    console.log(post)
+    if (post.title === undefined) {
+      post = post[0]
+    }
     return { post }
   }
 }

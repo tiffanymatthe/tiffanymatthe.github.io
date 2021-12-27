@@ -12,7 +12,7 @@
 export default {
   name: 'IndexPage',
   async asyncData ({ $content }) {
-    const posts = await $content('projects')
+    const posts = await $content('projects', { deep: true })
       .only(['title', 'image', 'tags', 'slug', 'color', 'titleColor', 'type'])
       .sortBy('createdAt', 'desc')
       .fetch()

@@ -1,9 +1,11 @@
 ---
 title: Autonomous Robot Controller
-image: cupcake_lines.png
+image: car.png
 tags:
   - Python
-  - Linux
+  - Gazebo
+  - ROS
+  - Tensorflow
 color: D5E1FF
 titleColor: 93b2ff
 description: A web application that generates Spotify playlists using OpenCV and the Spotify API with Python.

@@ -62,7 +62,7 @@ div.card-body {
     height: 2px;
     content: "";
     position: absolute;
-    background-color: #031D44;
+    background-color: rgb(64, 64, 64);
 
     width: 0%;
     bottom: 0px;
@@ -116,5 +116,5 @@ body::-webkit-scrollbar-thumb {
     border-radius: 100px;
     border: 5px solid transparent;
     background-clip: content-box;
-    background-color: rgba(153, 153, 153, 0.644)
+    background-color: rgba(64, 64, 64, 0.8);
 }
