@@ -6,7 +6,7 @@
           <div class="w-full relative">
             <NuxtLink v-if="post.titleColor !== undefined" to="/" href="/" class="block mt-8 no-highlight" :style="`color:#${post.titleColor}`">← Go Back</NuxtLink>
             <h1 class="text-5xl pb-3 mt-2 z-10 font-bold">{{ post.title }}</h1>
-            <div v-if="post.color !== undefined" class="project-colour-block bottom-0 m-0 p-0 absolute block -z-50 overflow-hidden right-[-9.7vw] md:right-[-19.6vw]" :style="`background-color:#${post.color}`"></div>
+            <div v-if="post.color !== undefined" class="project-colour-block bottom-0 m-0 p-0 absolute block -z-50 overflow-hidden right-[-10vw] md:right-[-20vw]" :style="`background-color:#${post.color}`"></div>
           </div>
           <div v-if="post.description === undefined" class="italic">
             <span v-for="(tag,index) in post.tags" :key="tag">
