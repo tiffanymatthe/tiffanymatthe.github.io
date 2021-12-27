@@ -2,37 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: 'Graphik';
-    font-style: normal;
-    font-weight: 400;
-    src: url("..\fonts\Graphik\GraphikRegular.otf") format('opentype');
+:root {
+    --color: #404040;
+    --color-primary: #404040;
+    --color-secondary: #404040;
+    --bg: #f1eff0;
+    --bg-secondary: #f1eff0;
+    --border-color: #f1eff0;
 }
-@font-face {
-    font-family: 'Graphik';
-    font-style: italic;
-    font-weight: 400;
-    src: url("..\fonts\Graphik\GraphikRegularItalic.otf") format('opentype');
-}
-@font-face {
-    font-family: 'Graphik';
-    font-weight: bold;
-    src: url("..\fonts\Graphik\GraphikMedium.otf") format('opentype');
-}
-@font-face {
-    font-family: 'Graphik';
-    font-style: italic;
-    font-weight: bold;
-    src: url("..\fonts\Graphik\GraphikMediumItalic.otf") format('opentype');
+
+.dark {
+    --color: #e4e6eb;
+    --color-primary: #e4e6eb;
+    --color-secondary: #e4e6eb;
+    --bg: #181818;
+    --bg-secondary: #181818;
+    --border-color: #181818;
 }
 
 body {
     /* overflow-x: hidden; Hide horizontal scrollbar */
     background-color: #f1eff0;
-    color: rgb(64, 64, 64);
+    color: rgb(64, 64, 64); /* #404040 */
     scroll-behavior: smooth;
     max-width: 100%;
     overflow: overlay;
+    @apply dark:text-[#e4e6eb] dark:bg-[#181818];
 }
 
 div.card-body {
@@ -63,7 +58,7 @@ div.card-body {
     content: "";
     position: absolute;
     background-color: rgb(64, 64, 64);
-
+    @apply dark:bg-[#e4e6eb];
     width: 0%;
     bottom: 0px;
 }
@@ -122,4 +117,25 @@ body::-webkit-scrollbar-thumb {
 .line-drawing {
     /* https://codepen.io/sosuke/pen/Pjoqqp */
     filter: invert(22%) sepia(34%) saturate(0%) hue-rotate(32deg) brightness(94%) contrast(89%);
+    @apply dark:invert-[0.95] dark:sepia-[0.19] dark:saturate-[2.24] dark:hue-rotate-[180deg] dark:brightness-[.98] dark:contrast-[.88];
+    /* filter: invert(95%) sepia(19%) saturate(224%) hue-rotate(180deg) brightness(98%) contrast(88%); */
+}
+
+.feather {
+    position: relative;
+    top: 0px;
+    cursor: pointer;
+    padding: 7px;
+    padding-bottom: 0;
+    margin: 0;
+    transition: all 0.1s ease;
+}
+.feather:hover {
+    top: -3px;
+}
+.feather.preferred {
+    top: -3px;
+}
+.feather.selected {
+    color: var(--color-primary);
 }

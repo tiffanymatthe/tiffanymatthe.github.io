@@ -3,7 +3,7 @@
     <NavigationBar />
     <div>
       <h1 class="text-5xl pb-3 mt-2 z-10">{{ page.title }}</h1>
-      <nuxt-content class="mt-4 prose max-w-none" :document="page" />
+      <nuxt-content class="mt-4 prose dark:prose-dark max-w-none" :document="page" />
     </div>
     <PageFooter />
   </div>

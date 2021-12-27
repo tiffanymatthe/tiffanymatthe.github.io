@@ -4,9 +4,9 @@
     <article>
         <div class="w-full">
           <div class="w-full relative">
-            <NuxtLink v-if="post.titleColor !== undefined" to="/" href="/" class="block mt-8 no-highlight" :style="`color:#${post.titleColor}`">← Go Back</NuxtLink>
+            <NuxtLink v-if="post.titleColor !== undefined" to="/" href="/" class="block mt-8 no-highlight dark:brightness-[.3]" :style="`color:#${post.titleColor}`">← Go Back</NuxtLink>
             <h1 class="text-5xl pb-3 mt-2 z-10 font-bold">{{ post.title }}</h1>
-            <div v-if="post.color !== undefined" class="project-colour-block bottom-0 m-0 p-0 absolute block -z-50 overflow-hidden right-[-10vw] md:right-[-20vw]" :style="`background-color:#${post.color}`"></div>
+            <div v-if="post.color !== undefined" class="project-colour-block bottom-0 m-0 p-0 absolute block -z-50 overflow-hidden right-[-10vw] md:right-[-20vw] dark:brightness-[.5]" :style="`background-color:#${post.color}`"></div>
           </div>
           <div v-if="post.description === undefined" class="italic">
             <span v-for="(tag,index) in post.tags" :key="tag">
@@ -15,17 +15,17 @@
             </span>
             <div v-if="post.data !== undefined">{{post.date | formatDate}}</div>
           </div>
-          <div v-if="post.description !== undefined" class="grid grid-cols-1 md:grid-cols-2 pt-3">
-            <span v-if="post.description !== undefined" class="col-span-2 pr-5 text-xl pb-5">{{ post.description }}</span>
-            <div class="md:col-end-12 md:text-right md:w-40">
+          <div v-if="post.description !== undefined" class="pt-3">
+            <span v-if="post.description !== undefined" class="pr-5 text-xl pb-5">{{ post.description }}</span>
+            <div class="italic mt-3 mb-10">
               <span v-for="(tag,index) in post.tags" :key="tag">
                 {{tag}}
                 <span v-if="index != post.tags.length - 1"> | </span>
               </span>
-              <div v-if="post.year !== undefined" class="pt-3">{{post.year}}</div>
+              <div v-if="post.year !== undefined" class="pt-2">{{post.year}}</div>
             </div>
           </div>
-          <nuxt-content class="mt-4 prose max-w-none" :document="post" />
+          <nuxt-content class="mt-4 prose dark:prose-dark max-w-none" :document="post" />
         </div>
     </article>
     <PageFooter />

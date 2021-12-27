@@ -24,5 +24,5 @@ So that's why I reach[^4].
 
 [^1]: How did I casually recall an award that I had "automatically dismissed"? Well, I consciously dismissed it, but it was probably nagging my subconscious (who must have believed in me) so it had to come out at some point.
 [^2]: I will always attempt anything that I have more than 80% confidence in succeeding. Anything lower than 80% requires more effort.
-[^3]: Check out [this resume of failures](https://www.princeton.edu/~joha/Johannes_Haushofer_CV_of_Failures.pdf). It can be helpful to be reminded that we all fail a lot.
+[^3]: Check out [this resume of failures](https://www.uni-goettingen.de/de/document/download/bed2706fd34e29822004dbe29cd00bb5.pdf/Johannes_Haushofer_CV_of_Failures[1].pdf). It can be helpful to be reminded that we all fail a lot.
 [^4]: I'm not saying I try everything I come across. That would kill my energy and time. I usually reach if I have at least 50% confidence.

@@ -7,7 +7,7 @@ tags:
   - ROS
   - Tensorflow
 color: D5E1FF
-titleColor: 93b2ff
+titleColor: 87a9ff
 description: An autonomous robot controller in Gazebo and ROS that detects license plates while driving around a track.
 year: 2021
 ---

@@ -1,6 +1,6 @@
 ---
 title: Mars Rover Prototype
-image: sunset.png
+image: robot.png
 tags:
   - CAD
   - PID
