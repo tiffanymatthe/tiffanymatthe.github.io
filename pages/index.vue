@@ -3,14 +3,8 @@
     <NavigationBar />
     <MainHero />
     <WorkExperience />
-    <FeaturedProjects :posts="objects[0]" />
+    <FeaturedProjects :posts="projects" />
     <PageFooter />
-    <div>
-      <!-- hidden on purpose, just for link rendering -->
-      <div v-for="post in objects[1]" :key="post.title">
-        <NuxtLink :to="`${post.slug}`">{{post.title}}</NuxtLink>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -22,11 +16,7 @@ export default {
       .only(['title', 'image', 'tags', 'slug', 'color', 'titleColor', 'type', 'year'])
       .sortBy('year', 'desc')
       .fetch()
-    const postss = await $content('posts', { deep: true })
-      .only(['title', 'slug'])
-      .fetch()
-    const objects = [projects, postss]
-    return { objects }
+    return { projects }
   }
 }
 </script>
