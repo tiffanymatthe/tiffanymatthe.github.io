@@ -8,7 +8,7 @@
     <div>
       <!-- hidden on purpose, just for link rendering -->
       <div v-for="post in objects[1]" :key="post.title">
-        <NuxtLink :to="`${post.slug}`"></NuxtLink>
+        <NuxtLink :to="`${post.slug}`">{{post.title}}</NuxtLink>
       </div>
     </div>
   </div>
