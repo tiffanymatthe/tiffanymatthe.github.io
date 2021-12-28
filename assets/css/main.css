@@ -122,20 +122,24 @@ body::-webkit-scrollbar-thumb {
 }
 
 .feather {
-    position: relative;
-    top: 0px;
     cursor: pointer;
-    padding: 7px;
-    padding-bottom: 0;
-    margin: 0;
+    margin-left: 1em;
     transition: all 0.1s ease;
 }
-.feather:hover {
-    top: -3px;
-}
-.feather.preferred {
-    top: -3px;
-}
+
 .feather.selected {
     color: var(--color-primary);
 }
+
+.svg-icon {
+    display: inline-flex;
+    align-self: center;
+  }
+  .svg-icon svg {
+    height:1em;
+    width:1em;
+  }
+  .svg-icon.svg-baseline svg {
+    top: .125em;
+    position: relative;
+  }

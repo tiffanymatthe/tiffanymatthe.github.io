@@ -1,6 +1,8 @@
 <template>
   <button class="btn capitalize" @click="changeMode">
-    <component :is="`icon-${btnLabel}`" />
+      <div class="svg-icon svg-baseline">
+        <component :is="`icon-${btnLabel}`" />
+      </div>
   </button>
 </template>
 

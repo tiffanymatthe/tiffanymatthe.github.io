@@ -1,4 +1,4 @@
-# tmatthe-vue
+# Tiffany Matthé
 
 ## Build Setup
 

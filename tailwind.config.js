@@ -68,6 +68,10 @@ module.exports = {
                 color: theme('colors.white'),
                 borderBottomColor: theme('colors.gray.400'),
               },
+              'thead th': {
+                color: theme('colors.white'),
+                borderBottomColor: theme('colors.gray.400'),
+              },
               'tbody tr': {
                 borderBottomColor: theme('colors.gray.600'),
               },
