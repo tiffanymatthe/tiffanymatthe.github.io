@@ -9,14 +9,31 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'white-scrollbar': 'rgba(249,249,249,0.4)',
+      },
       fontFamily: {
-        'sans': ['Inter', 'Helvetica', 'Arial', 'sans-serif']
+        'sans': ['Inter', 'Helvetica', 'Arial', 'sans-serif'],
+        'serif': ['DM Serif Text', 'Georgia', 'Cambria', "Times New Roman", 'Times', 'serif']
       },
       typography: (theme) => ({
+        DEFAULT: {
+            css: {
+                p: {
+                    fontSize: '1.125rem',
+                },
+                ul: {
+                    fontSize: '1.125rem',
+                },
+                table: {
+                    fontSize: '1.125rem',
+                }
+            },
+        },
         dark: {
           css: [
             {
-              color: theme('colors.gray.400'),
+              color: theme('colors.gray.300'),
               '[class~="lead"]': {
                 color: theme('colors.gray.300'),
               },
@@ -27,7 +44,7 @@ module.exports = {
                 color: theme('colors.white'),
               },
               'ol > li::before': {
-                color: theme('colors.gray.400'),
+                color: theme('colors.gray.300'),
               },
               'ul > li::before': {
                 backgroundColor: theme('colors.gray.600'),
@@ -52,7 +69,7 @@ module.exports = {
                 color: theme('colors.white'),
               },
               'figure figcaption': {
-                color: theme('colors.gray.400'),
+                color: theme('colors.gray.300'),
               },
               code: {
                 color: theme('colors.white'),
@@ -66,11 +83,11 @@ module.exports = {
               },
               thead: {
                 color: theme('colors.white'),
-                borderBottomColor: theme('colors.gray.400'),
+                borderBottomColor: theme('colors.gray.300'),
               },
               'thead th': {
                 color: theme('colors.white'),
-                borderBottomColor: theme('colors.gray.400'),
+                borderBottomColor: theme('colors.gray.300'),
               },
               'tbody tr': {
                 borderBottomColor: theme('colors.gray.600'),

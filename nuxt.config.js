@@ -2,7 +2,7 @@ export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
-  // Uncomment when pushing for deployment
+  // Uncomment when pushing for deployment (npm run build)
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -53,7 +53,11 @@ export default {
       Inter: {
         wght: [400, 500, 600, 700, 800],
         ital: [400, 500, 600, 700, 800]
-      }
+      },
+      'DM Serif Text': {
+        wght: [400, 500, 600, 700, 800],
+        ital: [400, 500, 600, 700, 800]
+      },
     }
   },
 

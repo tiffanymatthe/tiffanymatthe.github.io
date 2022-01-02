@@ -1,15 +1,15 @@
 <template>
 <div class="pb-5">
-    <div class="text-3xl py-5">
+    <div class="text-3xl py-5 font-serif">
         Work
     </div>
-    <div v-for="experience in experiences" :key="experience.name">
-        <div class="lg:flex lg:justify-between text-md">
-          <div>
+    <div class="pb-2" v-for="experience in experiences" :key="experience.name">
+        <div class="text-lg">
+          <div class="inline-block">
             <a target="_blank" :href="experience.link" class="font-bold">{{experience.name}}</a>
-            <div class="md:inline lg:pl-2">{{experience.description}}</div>
+            <div class="md:inline md:pl-2">{{experience.description}}</div>
+            <div class="md:inline block md:pl-2 opacity-80 md:text-right break-normal">({{experience.range}})</div>
           </div>
-          <div class="lg:inline-block lg:pl-1 opacity-80 lg:text-right lg:ml-auto lg:mr-0">({{experience.range}})</div>
         </div>
     </div>
 </div>
