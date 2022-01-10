@@ -2,7 +2,7 @@ export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
-  // Uncomment when pushing for deployment (npm run build)
+  // Uncomment when pushing for deployment (npm run build and run generate)
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -45,8 +45,13 @@ export default {
     '@nuxt/postcss8',
     '@nuxtjs/google-fonts',
     '@nuxtjs/color-mode',
-    '@nuxtjs/svg'
+    '@nuxtjs/svg',
+    'vue-plausible'
   ],
+  
+  plausible: {
+    domain: 'tiffanymatthe.com'
+  },
 
   googleFonts: {
     families: {

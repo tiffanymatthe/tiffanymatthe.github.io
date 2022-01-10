@@ -27,7 +27,11 @@ module.exports = {
                 },
                 table: {
                     fontSize: '1.125rem',
-                }
+                },
+                pre: {
+                    color: theme('colors.gray.800'),
+                    backgroundColor: theme('colors.gray.200'),
+                },
             },
         },
         dark: {

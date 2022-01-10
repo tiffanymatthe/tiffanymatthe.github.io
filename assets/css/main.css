@@ -88,18 +88,26 @@ a:not(.no-highlight) {
     text-decoration: none;
     transition: background-size .2s;
 }
+
+code {
+    white-space : pre-wrap !important;
+}
+
+span.token.operator {
+    background-color: transparent;
+}
   
 a:not(.no-highlight):hover {
     background-size: 4px 50px;
     color: #F9F9F9;
 }
 
-.nuxt-content-highlight {
-    background-color: white;
+pre {
+    text-shadow: none !important;
 }
 
-pre {
-    background: white !important;
+.nuxt-content-highlight {
+    @apply bg-gray-200 dark:bg-gray-800;
 }
 
 body::-webkit-scrollbar {

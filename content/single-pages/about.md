@@ -11,6 +11,6 @@ During the summer of 2020, I was a research co-op student with The Quantum Matte
 
 For my first co-op at Ausenco, I designed interactive dashboards with Power BI and created an online catalog of engineering standards. I have also helped kids with math and reading at Kumon.
 
-Outside of class, you can find me designing a solar car chassis with UBC Solar ☀️ or learning to code by building projects such as Round Recipes. Finally, here is my most popular writing piece: The Art Of Not Thinking.
+Outside of class, you can find me designing a solar car chassis with UBC Solar ☀️ or learning to code by building projects such as Round Recipes. Finally, here is my most popular writing piece: [The Art Of Not Thinking](./not-thinking).
 
 If you would like to get in touch, email me. It is my first and last name with gmail. 📬
