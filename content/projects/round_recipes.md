@@ -11,6 +11,6 @@ description: A website that allows users to easily share recipes with others via
 year: 2020
 ---
 
-[roundrecipes.com](https://roundrecipes.com/)
+~~[roundrecipes.com](https://roundrecipes.com/)~~ (in progress to find a free host)
 
 This was my first tech project, which involved creating a database with MySQL and designing a website with HTML and CSS. I learned PHP to handle requests from the website to the database (and vice-versa) as well as for user authentication and input sanitization.
