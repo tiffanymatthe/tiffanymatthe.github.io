@@ -20,6 +20,7 @@ export default {
   data () {
     return {
       experiences: [
+        { name: 'Tesla, Inc.', range: 'May - Dec. 2022', description: 'chassis controls intern', link: 'https://www.tesla.com/' },
         { name: 'UBC Computer Engineering', range: 'Sep. - Dec. 2021', description: 'teaching assistant for Java software construction', link: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPEN&course=221' },
         { name: 'Kardium Inc.', range: 'Jan. - Apr. 2021', description: 'automated mechanical jigs in C# for medical device production', link: 'https://kardium.com/' },
         { name: 'Stewart Blusson Quantum Institute', range: 'May - Aug. 2020', description: 'physics research assistant', link: 'https://qmi.ubc.ca/' }

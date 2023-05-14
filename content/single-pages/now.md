@@ -3,9 +3,8 @@ title: Now
 ---
 I am currently:
 
-- in my 3rd year of Engineering Physics.
-- stretching to do the splits.
-- researching how to invest for the long-term.
-- training a reinforcement agent for Connect-Four.
+- heading into my 4th year of Engineering Physics.
+- exploring California!
+- learning to rock climb.
 
 This page is inspired by Derek Sivers' [nownownow](https://nownownow.com/) project.

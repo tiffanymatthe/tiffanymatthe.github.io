@@ -11,8 +11,8 @@ year: 2021
 ---
 [connect-four - Github](https://github.com/tiffanymatthe/connect-four)
 
-To gain a better understanding of reinforcement learning and DeepMind’s AlphaGo Zero, we set out to train a neural network to play the game Connect 4.
-
+To gain a better understanding of reinforcement learning and DeepMind’s AlphaGo Zero, [Manmeet](https://manmeetkp123.github.io/index.html) and I set out to train a neural network to play the game Connect 4.
+  
 <aside>
 Connect 4 is a two-player game where each player attempts to create a connected line of 4 of their tokens on a vertical 6 x 7 board. The game ends when one player makes the line or when the board is filled up. A move is made by placing a token in one of the seven columns.
 </aside>
@@ -123,7 +123,7 @@ learning_rate_schedule = {
 }
 ```
 
-This model is currently training.
+I quickly realized that I needed a lot more computational power to converge to a solution, but this project helped me learn a lot about how reinforcement learning works.
 
 [^1]: Silver, D., Schrittwieser, J., Simonyan, K. *et al*. Mastering the game of Go without human knowledge. *Nature* **550**, 354–359 (2017). https://doi.org/10.1038/nature24270
 
