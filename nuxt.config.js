@@ -2,7 +2,7 @@ export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
-  // Uncomment when pushing for deployment (npm run build and run generate)
+  // Uncomment when pushing for deployment (npm run build and npm run generate)
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
