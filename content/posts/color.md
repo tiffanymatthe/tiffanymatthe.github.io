@@ -1,7 +1,7 @@
 ---
 title: "In Defense of Multi-Colored Pens"
 date: 2020-11-12
-slug: "/color"
+slug: "color"
 ---
 
 In high school, I fell in love with stationary. Opening my pencil case triggered an explosion of colors, one of pastel highlighters and rainbow gel pens. It seemed frivolous at the time, but I realize now that they have a small, yet important, impact on my studies.

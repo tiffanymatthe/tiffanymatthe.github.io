@@ -1,7 +1,7 @@
 ---
 title: "The Art of Not Thinking"
 date: 2020-08-03
-slug: "/not-thinking"
+slug: "not-thinking"
 tags:
   - Productivity
 ---

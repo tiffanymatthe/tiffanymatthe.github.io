@@ -1,7 +1,7 @@
 ---
 title: "Reading Fiction and Its Benefits"
 date: 2020-06-23
-slug: "/reading-fiction-benefits"
+slug: "reading-fiction-benefits"
 ---
 
 When I was younger, I read like a book addict. I would rush home after school, complete all my homework as quickly as possible, and then curl up on the couch and read until my eyes burned.

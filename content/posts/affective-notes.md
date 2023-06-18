@@ -1,7 +1,7 @@
 ---
 title: "Taking Notes on Our Feelings"
 date: 2020-09-15
-slug: "/affective-notes"
+slug: "affective-notes"
 tags:
   - Note Taking
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Reaching"
 date: 2020-07-07
-slug: "/reach"
+slug: "reach"
 tags:
   - Mindset
 ---

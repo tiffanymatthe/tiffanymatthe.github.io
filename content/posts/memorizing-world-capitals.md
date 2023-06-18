@@ -1,7 +1,7 @@
 ---
 title: "Memorizing the World's Capitals"
 date: 2020-06-07
-slug: "/memorizing-capitals"
+slug: "memorizing-capitals"
 ---
 
 This might seem like a difficult, near impossible task. 

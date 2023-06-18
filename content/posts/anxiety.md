@@ -1,7 +1,7 @@
 ---
 title: "Reducing Anxiety Takes Time"
 date: 2020-09-04
-slug: "/anxiety"
+slug: "anxiety"
 tags:
   - Mental Health
 ---

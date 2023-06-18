@@ -1,7 +1,7 @@
 ---
 title: "Being OK With Not Being Extraordinary"
 date: 2020-08-23
-slug: "/not-extraordinary"
+slug: "not-extraordinary"
 tags:
   - Mindset
 ---

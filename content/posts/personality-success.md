@@ -1,7 +1,7 @@
 ---
 title: "Personality Does Not Define Success"
 date: 2020-09-30
-slug: "/personality-success"
+slug: "personality-success"
 ---
 
 Tim Cook [wakes up at 3:45 am](https://poy.time.com/2012/12/19/runner-up-tim-cook-the-technologist/). Yoshiro Nakamatsu [dives underwater for the best ideas](https://web.archive.org/web/20120330154757/http://www.whatagreatidea.com/nakamatsu.htm). Marissa Mayer [personally approves every hire](https://www.reuters.com/article/us-yahoo-hiring-idUSBRE92B06R20130312). These quirky habits of successful people are plastered throughout the internet, often lauded as the golden tickets to success.

@@ -1,7 +1,7 @@
 ---
 title: "Why We Need To Create More"
 date: 2020-05-27
-slug: "/create-more"
+slug: "create-more"
 ---
 
 We all do it. We consume. And it can be good. It can be good to scroll through your friends' Instagram photos, learn how to cook on Youtube, relax with Netflix, read your Twitter feed, watch the news. It is entertaining. A way to learn. To be caught up with the world.
