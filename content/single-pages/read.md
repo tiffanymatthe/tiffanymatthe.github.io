@@ -21,3 +21,4 @@ Here are some books I liked:
 | Little Fires Everywhere                  | Celeste Ng | 5 |
 | Coeur trouvé aux objets perdus           | Francine Ruel | 4 |
 | Miroir de nos peines                     | Pierre Lemaitre | 5 |
+| The Name of the Wind                     | Patrick Rothfuss | 5 |

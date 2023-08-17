@@ -1,18 +1,33 @@
 ---
 title: About
 ---
-I am a UBC student working towards my bachelor's degree in Engineering Physics. My interests lie in technology, and how it can play a role in advancing sustainability. I also love creating — websites, pants, blog posts, knit toques, and a solar car are just some examples.
 
-Last year, I worked with software in the chassis controls team at Tesla. This year, I will be in the UK for some drone research!
+*TLDR: Engineering Physics student at UBC with experience in software construction, machine learning, drones, and electric cars*
 
-I was a teaching assistant at UBC for a computer engineering course on software construction in Java (CPEN221).
+🌸🌻🌸🌻🌸🌻🌸🌻🌸🌻🌸
 
-My last co-op was at Kardium as an automation engineering co-op student. I helped develop software and build jigs that automate the fabrication of medical devices for atrial fibrillation. ❤️
+I am currently studying Engineering Physics at the University of British Columbia (UBC) in Canada. Throughout this bachelor's degree, I have had the opportunity to work on cool projects with companies and research labs.
 
-During the summer of 2020, I was a research co-op student with The Quantum Matter Institute at UBC. This included writing MATLAB code to analyse data, and designing new components for machines with SolidWorks. ⚛️
+My interests lie in technology and sustainability. I also love creating — designing websites, knitting bucket hats, sewing pants, and baking chocolate desserts are just some examples.
 
-For my first co-op at Ausenco, I designed interactive dashboards with Power BI and created an online catalog of engineering standards. I have also helped kids with math and reading at Kumon.
+## Experience
 
-Outside of class, you can find me designing a solar car chassis with UBC Solar ☀️ or learning to code by building projects such as Round Recipes. Finally, here is my most popular writing piece: [The Art Of Not Thinking](./not-thinking).
+🧠 This year, I was in the UK working on drones in simulation with reinforcement learning.
+
+🏎️ Last year, I worked with software in the chassis controls team at Tesla.
+
+🖥️ I was a teaching assistant at UBC for a computer engineering course on software construction in Java (CPEN221).
+
+❤️ In 2021, I interned at Kardium in the automation team. I helped develop software and build jigs that automate the fabrication of medical devices for atrial fibrillation.
+
+⚛️ During the summer of 2020, I was a research co-op student with The Quantum Matter Institute at UBC. This included writing MATLAB code to analyse data, and designing new components for machines with SolidWorks.
+
+📏 For my first co-op at Ausenco, I designed interactive dashboards with Power BI and created an online catalog of engineering standards. This first sparked my interest in code!
+
+🔢 In high school, I held my very first job helping kids with math and reading at Kumon.
+
+## Extra
+
+I wrote this article [The Art Of Not Thinking](./not-thinking) which somehow hit the top of HN.
 
 If you would like to get in touch, email me. It is my first and last name with gmail. 📬
