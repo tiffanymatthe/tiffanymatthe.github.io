@@ -18,6 +18,7 @@ echo "Finished populating dist/"
 
 if [ ! -z $1 ]
 then 
+# git push origin `git subtree split --prefix dist main`:gh-pages --force
     git subtree push --prefix dist origin gh-pages
 else
     echo "Push to Github Pages using 'git subtree push --prefix dist origin gh-pages'"
