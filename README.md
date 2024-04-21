@@ -18,7 +18,7 @@ $ npm run generate
 ```
 
 ## Pushing to Github Pages
-Make changes on main branch and run compile_website.sh to push changes in dist folder to gh-pages branch. Currently, some changes in local laptop are not pushed to main...
+Make changes on main branch and run compile_website.sh to push changes in dist folder to gh-pages branch.
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
