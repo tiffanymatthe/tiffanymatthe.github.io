@@ -1,10 +1,15 @@
 ---
 title: Now
 ---
-I am currently:
+I am currently
 
-- heading into my 5th year of Engineering Physics.
-- crocheting a top that will (hopefully) be finished this year.
-- drinking matcha lattes.
+- learning chess through Lichess puzzles,
+- optimizing drone formations with Julia,
+- watching way too many videos on [epoxy table making](https://www.youtube.com/@BlacktailStudio) and [huge construction projects](https://www.youtube.com/@TheB1M),
+- trying not to read the Stormlight Archive in one sitting,
+- climbing at the UBC Aviary until my knee gives out.
 
-This page is inspired by Derek Sivers' [nownownow](https://nownownow.com/) project.
+
+*Last Updated: April 20, 2024.*
+
+*This page is inspired by Derek Sivers' [nownownow](https://nownownow.com/) project.*

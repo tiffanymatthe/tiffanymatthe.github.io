@@ -22,3 +22,4 @@ Here are some books I liked:
 | Coeur trouvé aux objets perdus           | Francine Ruel | 4 |
 | Miroir de nos peines                     | Pierre Lemaitre | 5 |
 | The Name of the Wind                     | Patrick Rothfuss | 5 |
+| The Way of Kings                         | Brandom Sanderson | 5 |

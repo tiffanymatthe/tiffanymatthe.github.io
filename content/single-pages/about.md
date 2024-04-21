@@ -12,9 +12,11 @@ My interests lie in technology and sustainability. I also love creating — desi
 
 ## Experience
 
-🧠 This year, I was in the UK working on drones in simulation with reinforcement learning.
+🤖 My most recent internship was with the Tesla Bot team where I worked on cool ways to make the robot plan and navigate its surroundings.
 
-🏎️ Last year, I worked with software in the chassis controls team at Tesla.
+🧠 In 2023, I was in the UK working on drones in simulation with reinforcement learning.
+
+🏎️ In 2022, I worked with software in the chassis controls team at Tesla.
 
 🖥️ I was a teaching assistant at UBC for a computer engineering course on software construction in Java (CPEN221).
 
